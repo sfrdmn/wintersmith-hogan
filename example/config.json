@@ -1,0 +1,8 @@
+{
+  "plugins": ["./../"],
+  "locals": {
+    "pagename": "awesome people",
+    "authors": [{"author": "JN"}, {"author": "KP"}, {"author": "Michael Jordan"}],
+    "secret_message": "you're great! :)"
+  }
+}

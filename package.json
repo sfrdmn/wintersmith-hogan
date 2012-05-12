@@ -1,0 +1,11 @@
+{
+  "name": "wintersmith-hogan",
+  "version": "0.1.0",
+  "author": "Sean Fridman <fridman@mail.sfsu.edu>",
+  "description": "hogan plugin for wintersmith",
+  "license": "MIT",
+  "dependencies": {
+    "hogan.js": "2.x",
+    "coffee-script": "1.2.x"
+  }
+}
