@@ -1,8 +1,11 @@
 {
-  "plugins": ["./../"],
+  "plugins": [
+    "./../index-dev.js"
+  ],
   "locals": {
-    "pagename": "awesome people",
-    "authors": [{"author": "JN"}, {"author": "KP"}, {"author": "Michael Jordan"}],
-    "secret_message": "you're great! :)"
+    "guys": [
+      { "name": "Michael Jordan", "is_cool": true },
+      { "name": "Mussolini", "is_cool": false }
+    ]
   }
 }

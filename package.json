@@ -1,11 +1,27 @@
 {
   "name": "wintersmith-hogan",
-  "version": "0.1.0",
-  "author": "Sean Fridman <fridman@mail.sfsu.edu>",
-  "description": "hogan plugin for wintersmith",
+  "version": "0.2.0",
+  "description": "A plugin for Hogan templates in wintersmith.",
+  "author": "Sean Fridman",
   "license": "MIT",
+  "keywords": [
+    "wintersmith",
+    "wintersmith-hogan",
+    "hogan"
+  ],
+  "main": "lib/",
   "dependencies": {
-    "hogan.js": "2.x",
-    "coffee-script": "1.2.x"
+    "hogan-updated": "~3.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">1.5",
+    "vows": "0.7.x",
+    "wintersmith": "2.x"
+  },
+  "peerDependencies": {
+    "wintersmith": "2.x"
+  },
+  "scripts": {
+    "prepublish": "./bin/compile"
   }
 }

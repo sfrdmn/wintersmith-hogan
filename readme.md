@@ -1,24 +1,29 @@
+wintersmith-hogan
+==================
 
-# wintersmith-hogan
+Hogan templates for [Wintersmith](https://github.com/jnordberg/wintersmith)
 
-[hogan](https://github.com/twitter/hogan.js) plugin for [wintersmith](https://github.com/jnordberg/wintersmith)
+## Installing
 
-install:
+Install globally or locally using npm
 
-`npm install wintersmith-hogan -g`
-then add `wintersmith-hogan` to your plugins in the wintersmith config
+```
+npm install [-g] wintersmith-hogan
+```
 
-## Partials
+and add `wintersmith-hogan` to your config.json
 
-Assumes partials are in a subdirectory named **partials** in your template directory and that the files are given the same name they are referenced with in the template.
+```json
+{
+  "plugins": [
+    "wintersmith-hogan"
+  ]
+}
+```
 
-I.E. for a file **index.mustache** in `./templates` containing:
+## Naming conventions
 
-    {{>header}}
-    <section>
-      <p>sup</p>
-    </section>
+Assumes all templates have the `.mustache` extension
 
-There would exist a file in `./templates/partials` called **header.mustache**
-
-**header.hogan** would also work.
+File names of partials must match the names with which they are referenced.
+e.g. `cool_template.mustache` would be referenced using `{{> cool_template}}`
