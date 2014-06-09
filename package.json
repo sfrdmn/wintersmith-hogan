@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-hogan",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A plugin for Hogan templates in wintersmith.",
   "author": "Sean Fridman",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "url": "https://github.com/sfrdmn/wintersmith-hogan.git"
   },
   "dependencies": {
-    "hogan-updated": "~3.1.0"
+    "hogan.js": "3.0.1"
   },
   "devDependencies": {
     "coffee-script": ">1.5",
