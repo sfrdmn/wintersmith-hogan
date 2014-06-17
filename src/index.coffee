@@ -1,6 +1,6 @@
 fs = require 'fs'
 path = require 'path'
-hogan = require 'hogan-updated'
+hogan = require 'hogan.js'
 
 module.exports = (env, callback) ->
 
